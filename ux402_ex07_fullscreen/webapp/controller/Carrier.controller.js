@@ -7,7 +7,7 @@ sap.ui.define([
     function (Controller) {
         "use strict";
 
-        return Controller.extend("student04.com.sap.training.ux402.fullscreen.ux402fullscreen.controller.Carrier", {
+        return Controller.extend("student02.com.sap.training.ux402.fullscreen.ux402fullscreen.controller.Carrier", {
             getRouter: function () {
 
                 return sap.ui.core.UIComponent.getRouterFor(this);

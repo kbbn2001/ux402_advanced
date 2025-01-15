@@ -1,12 +1,12 @@
 sap.ui.define([
 	"sap/ui/core/Control",
-    "student04/com/sap/training/ux402/fullscreen/ux402fullscreen/control/PlaneInfoRenderer"
+    "student02/com/sap/training/ux402/fullscreen/ux402fullscreen/control/PlaneInfoRenderer"
 ],
 
 	function (Control, PlaneInfoRenderer) {
 		"use strict";
 
-		return Control.extend("student04.com.sap.training.ux402.fullscreen.ux402fullscreen.control.PlaneInfo", {  
+		return Control.extend("student02.com.sap.training.ux402.fullscreen.ux402fullscreen.control.PlaneInfo", {  
             metadata:{
                 properties: {
                     "seatsMax" : {

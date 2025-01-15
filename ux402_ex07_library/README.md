@@ -10,7 +10,7 @@
 |**Service URL**<br>N/A
 |**Module Name**<br>ux402_library|
 |**Application Title**<br>App Title|
-|**Namespace**<br>student04.com.sap.training.ux402.controls.ux402library|
+|**Namespace**<br>student02.com.sap.training.ux402.controls.ux402library|
 |**UI5 Theme**<br>sap_horizon|
 |**UI5 Version**<br>1.102.1|
 |**Enable Code Assist Libraries**<br>False|

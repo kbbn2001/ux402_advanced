@@ -2,7 +2,7 @@
 
 specVersion: "2.5"
 metadata:
-  name: student04.com.sap.training.ux402.fullscreen.ux402fullscreen
+  name: student02.com.sap.training.ux402.fullscreen.ux402fullscreen
 type: application
 framework:
   name: SAPUI5
@@ -47,5 +47,5 @@ server:
     - name: fiori-tools-preview
       afterMiddleware: fiori-tools-appreload
       configuration:
-        component: student04.com.sap.training.ux402.fullscreen.ux402fullscreen
+        component: student02.com.sap.training.ux402.fullscreen.ux402fullscreen
         ui5Theme: sap_fiori_3

@@ -1,8 +1,8 @@
 sap.ui.define([
     "sap/ui/core/mvc/Controller",
-    "student04/com/sap/training/ux402/controls/HoverButton",
+    "student02/com/sap/training/ux402/controls/HoverButton",
     "sap/m/MessageToast",
-    "student04/com/sap/training/ux402/controls/PlaneInfo"   
+    "student02/com/sap/training/ux402/controls/PlaneInfo"   
 ],
     /**
      * @param {typeof sap.ui.core.mvc.Controller} Controller
@@ -10,7 +10,7 @@ sap.ui.define([
     function (Controller, HoverButton, MessageToast, PlaneInfo) {
         "use strict";
 
-        return Controller.extend("student04.com.sap.training.ux402.fullscreen.ux402fullscreen.controller.Flights", {
+        return Controller.extend("student02.com.sap.training.ux402.fullscreen.ux402fullscreen.controller.Flights", {
             onInit: function () {
 
                 var oRouter = this.getRouter();

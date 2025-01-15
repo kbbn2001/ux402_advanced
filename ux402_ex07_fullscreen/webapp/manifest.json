@@ -1,7 +1,7 @@
 {
   "_version": "1.37.0",
   "sap.app": {
-    "id": "student04.com.sap.training.ux402.fullscreen.ux402fullscreen",
+    "id": "student02.com.sap.training.ux402.fullscreen.ux402fullscreen",
     "type": "application",
     "i18n": "i18n/i18n.properties",
     "applicationVersion": {
@@ -56,7 +56,7 @@
         "sap.ui.generic.app": {},
         "sap.ui.table": {},
         "sap.ushell": {},
-        "student04.com.sap.training.ux402.controls" : {}
+        "student02.com.sap.training.ux402.controls" : {}
       }
     },
     "contentDensities": {
@@ -67,7 +67,7 @@
       "i18n": {
         "type": "sap.ui.model.resource.ResourceModel",
         "settings": {
-          "bundleName": "student04.com.sap.training.ux402.fullscreen.ux402fullscreen.i18n.i18n"
+          "bundleName": "student02.com.sap.training.ux402.fullscreen.ux402fullscreen.i18n.i18n"
         }
       },
       "": {
@@ -88,7 +88,7 @@
         "routerClass": "sap.m.routing.Router",
         "viewType": "XML",
         "async": true,
-        "viewPath": "student04.com.sap.training.ux402.fullscreen.ux402fullscreen.view",
+        "viewPath": "student02.com.sap.training.ux402.fullscreen.ux402fullscreen.view",
         "controlAggregation": "pages",
         "controlId": "app",
         "clearControlAggregation": false,
@@ -140,7 +140,7 @@
       }
     },
     "rootView": {
-      "viewName": "student04.com.sap.training.ux402.fullscreen.ux402fullscreen.view.App",
+      "viewName": "student02.com.sap.training.ux402.fullscreen.ux402fullscreen.view.App",
       "type": "XML",
       "async": true,
       "id": "App"

@@ -1,7 +1,7 @@
-<mvc:View controllerName="student04.com.sap.training.ux402.fullscreen.ux402fullscreen.controller.Flights"
+<mvc:View controllerName="student02.com.sap.training.ux402.fullscreen.ux402fullscreen.controller.Flights"
     xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
     xmlns="sap.m" xmlns:l="sap.ui.layout"
-    xmlns:cust="student04.com.sap.training.ux402.controls">
+    xmlns:cust="student02.com.sap.training.ux402.controls">
    <Page id="idFlightsPage" navButtonPress="onNavBack" showNavButton="true" title="{Carrname}">
         <content>
             <l:VerticalLayout id="verticalLayout">

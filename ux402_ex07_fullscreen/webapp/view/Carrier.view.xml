@@ -1,4 +1,4 @@
-<mvc:View controllerName="student04.com.sap.training.ux402.fullscreen.ux402fullscreen.controller.Carrier"
+<mvc:View controllerName="student02.com.sap.training.ux402.fullscreen.ux402fullscreen.controller.Carrier"
     xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
     xmlns="sap.m">
     <Page id="carrierPage" title="{i18n>overviewPageTitle}">

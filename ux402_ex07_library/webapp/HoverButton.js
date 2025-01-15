@@ -5,7 +5,7 @@ sap.ui.define([
 	function (Button) {
 		"use strict";
 
-		return Button.extend("student04.com.sap.training.ux402.controls.HoverButton", {                   
+		return Button.extend("student02.com.sap.training.ux402.controls.HoverButton", {                   
             metadata: {
                 properties: {
                     "allowHover": {

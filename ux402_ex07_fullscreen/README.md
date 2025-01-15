@@ -10,7 +10,7 @@
 |**Service URL**<br>http://s4d.virtual:443/sap/opu/odata/sap/UX_TRAVEL_SRV
 |**Module Name**<br>ux402_fullscreen|
 |**Application Title**<br>Full-screen Application|
-|**Namespace**<br>student04.com.sap.training.ux402.fullscreen|
+|**Namespace**<br>student02.com.sap.training.ux402.fullscreen|
 |**UI5 Theme**<br>sap_fiori_3|
 |**UI5 Version**<br>1.96.11|
 |**Enable Code Assist Libraries**<br>False|

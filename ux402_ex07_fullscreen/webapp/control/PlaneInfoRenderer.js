@@ -5,7 +5,7 @@ sap.ui.define([
 	function (Renderer) {
 		"use strict";
 
-		var PlaneInfoRenderer = Renderer.extend("student04.com.sap.training.ux402.fullscreen.ux402fullscreen.control.PlaneInfoRenderer");
+		var PlaneInfoRenderer = Renderer.extend("student02.com.sap.training.ux402.fullscreen.ux402fullscreen.control.PlaneInfoRenderer");
         PlaneInfoRenderer.apiVersion = 2;
 
         PlaneInfoRenderer.render = function(oRm, oControl) {

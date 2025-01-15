@@ -2,7 +2,7 @@
 
 specVersion: "2.5"
 metadata:
-  name: student04.com.sap.training.ux402.fullscreen.ux402fullscreen
+  name: student02.com.sap.training.ux402.fullscreen.ux402fullscreen
 type: application
 server:
   customMiddleware:
