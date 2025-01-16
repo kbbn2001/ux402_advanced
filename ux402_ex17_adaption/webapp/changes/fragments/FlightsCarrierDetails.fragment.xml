@@ -1,0 +1,10 @@
+<!-- Use stable and unique IDs!-->
+<core:FragmentDefinition xmlns:core='sap.ui.core' xmlns='sap.m'>
+	<!--  add your xml here -->
+	<ObjectHeader id="idCarrierInfoExt" title="{Carrname}" number="" numberUnit="{Currcode}" titleHref="{Url}">
+        <attributes>
+		    <ObjectAttribute id="idAirLineIDExt" text="{Carrid}"></ObjectAttribute>
+            <ObjectAttribute id="idURLExt" text="{Url}"></ObjectAttribute>
+        </attributes> 
+    </ObjectHeader>    
+</core:FragmentDefinition>

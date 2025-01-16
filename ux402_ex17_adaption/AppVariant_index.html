@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>Adaptation Project Preview</title>
+
+	<style>
+		/* hide variant management popover footer */
+		.sapUiFlVarMngmtPopover .sapMPageWithFooter>section { bottom: 0 !important; }
+		.sapUiFlVarMngmtPopover .sapMPageFooter, .sapUICompVarMngmtPopover .sapMPageFooter { display: none !important; }
+	</style>
+	
+	<script type="text/javascript">
+		window["sap-ushell-config"] = {
+			defaultRenderer : "fiori2",
+			renderers: {
+				fiori2: {
+					componentData: {
+						config: {
+							appState: "headerless",
+							rootIntent: "adaptationproject-display"
+						}
+					}
+				}
+			},
+			applications: {
+				"adaptationproject-display": {
+					title: "Adaptation Project Preview",
+					additionalInformation: "SAPUI5.Component=student04.com.sap.training.ux402.fullscreen.ux402fullscreen",
+					applicationType: "URL",
+					applicationDependencies: {"name":"student04.com.sap.training.ux402.fullscreen.ux402fullscreen","url":"/sap/bc/ui5_ui5/sap/z_ux402_fulsc00/~7D274D963D8F60A1A3B9C1A2A34593DA~5","manifest":{"_version":"1.37.0","sap.app":{"id":"customer.student00.ux402adaptation","type":"application","i18n":"i18n/i18n.properties","applicationVersion":{"version":"0.0.1"},"title":"Full-screen Application","description":"Full-screen Application","resources":"resources.json","sourceTemplate":{"id":"@sap/generator-fiori:basic","version":"1.8.0","toolsId":"7966548b-f300-4efe-b7ee-d7b48b10471b"},"dataSources":{"mainService":{"uri":"/sap/opu/odata/sap/UX_TRAVEL_SRV/","type":"OData","settings":{"annotations":[],"localUri":"localService/metadata.xml","odataVersion":"2.0"}}}},"sap.ui":{"technology":"UI5","icons":{"icon":"","favIcon":"","phone":"","phone@2":"","tablet":"","tablet@2":""},"deviceTypes":{"desktop":true,"tablet":true,"phone":true}},"sap.ui5":{"flexEnabled":true,"dependencies":{"minUI5Version":"1.96.16","libs":{"sap.m":{},"sap.ui.core":{},"sap.f":{},"sap.suite.ui.generic.template":{},"sap.ui.comp":{},"sap.ui.generic.app":{},"sap.ui.table":{},"sap.ushell":{}}},"contentDensities":{"compact":true,"cozy":true},"models":{"i18n":{"type":"sap.ui.model.resource.ResourceModel","settings":{"bundleName":"student04.com.sap.training.ux402.fullscreen.ux402fullscreen.i18n.i18n","enhanceWith":[{"bundleUrl":"i18n/i18n.properties","supportedLocales":[""],"fallbackLocale":"","bundleUrlRelativeTo":"manifest"}]}},"":{"dataSource":"mainService","preload":true,"settings":{}}},"resources":{"css":[{"uri":"css/style.css"}]},"routing":{"config":{"routerClass":"sap.m.routing.Router","viewType":"XML","async":true,"viewPath":"student04.com.sap.training.ux402.fullscreen.ux402fullscreen.view","controlAggregation":"pages","controlId":"app","clearControlAggregation":false,"transition":"slide","bypassed":{"target":["notFound"]}},"routes":[{"name":"overview","pattern":"","titleTarget":"","greedy":false,"target":["overview"]},{"name":"flights","pattern":"carriers/{carrid}","titleTarget":"","greedy":false,"target":["flights"]}],"targets":{"overview":{"viewType":"XML","transition":"slide","viewId":"Carrier","viewName":"Carrier","viewLevel":1},"flights":{"viewType":"XML","transition":"slide","viewId":"Flights","viewName":"Flights","viewLevel":2},"notFound":{"viewId":"NotFound","viewName":"NotFound","transition":"show"}}},"rootView":{"viewName":"student04.com.sap.training.ux402.fullscreen.ux402fullscreen.view.App","type":"XML","async":true,"id":"App"},"componentName":"student04.com.sap.training.ux402.fullscreen.ux402fullscreen","appVariantId":"customer.student00.ux402adaptation","appVariantIdHierarchy":[{"appVariantId":"student04.com.sap.training.ux402.fullscreen.ux402fullscreen.Component","layer":"VENDOR","version":"0.0.1"}],"flexExtensionPointEnabled":true},"sap.platform.abap":{"uri":"/sap/bc/ui5_ui5/sap/z_ux402_fulsc00"}},"self":{"name":"student04.com.sap.training.ux402.fullscreen.ux402fullscreen","url":"/sap/bc/ui5_ui5/sap/z_ux402_fulsc00/~7D274D963D8F60A1A3B9C1A2A34593DA~5"},"asyncHints":{"libs":[{"name":"sap.ushell"},{"name":"sap.ui.table"},{"name":"sap.ui.generic.app"},{"name":"sap.ui.comp"},{"name":"sap.suite.ui.generic.template"},{"name":"sap.f"},{"name":"sap.ui.core"},{"name":"sap.m"}],"components":[{"name":"customer.student00.ux402adaptation","url":{"url":"/webapp","final":true},"lazy":true}],"cacheTokens":{"dataSources":{"/sap/opu/odata/sap/UX_TRAVEL_SRV/":"20230201104714"}},"requests":[{"name":"sap.ui.fl.changes","reference":"customer.student00.ux402adaptation","preview":{"maxLayer":"PARTNER","reference":"student04.com.sap.training.ux402.fullscreen.ux402fullscreen.Component"}}]},"altManifestUrl":"webapp/manifest.appdescr_variant","componentData":{"startupParameters":{"sap-ui-fl-max-layer":["CUSTOMER_BASE"]}}}
+				}
+			}
+		};
+	</script>
+
+	<script src="../../1.96.16/test-resources/sap/ushell/bootstrap/sandbox.js" id="sap-ushell-bootstrap"></script>
+
+	<script id="sap-ui-bootstrap"
+			src="../../1.96.16/resources/sap-ui-core.js"
+			data-sap-ui-libs="sap.ushell, sap.ui.rta"
+			data-sap-ui-theme="sap_belize"
+			data-sap-ui-compatVersion="edge"
+			data-sap-ui-xx-bindingSyntax="complex"
+			data-sap-ui-xx-rootComponentNode="content"
+			data-sap-ui-xx-designMode="true"
+			data-sap-ui-flexibilityServices='[{"connector": "LrepConnector", "layers": [], "url": "/sap/bc/lrep"},{"applyConnector": "WorkspaceApplyConnector", "writeConnector": "WorkspaceWriteConnector", "custom": true, "layers": ["CUSTOMER_BASE"]}]'
+			data-sap-ui-xx-suppressDeactivationOfControllerCode="true">
+	</script>
+
+	<script type="text/javascript">
+		sap.ui.getCore().attachInit(function() {
+			sap.ushell.Container.createRenderer().placeAt("content");
+		});
+	</script>
+
+	<script src="https://port8888-workspaces-ws-ql4gc.eu10.applicationstudio.cloud.sap/watt/resources/sap/watt/lib/lodash/lodash.js" type="text/javascript"></script>
+	<script src="https://port8888-workspaces-ws-ql4gc.eu10.applicationstudio.cloud.sap/features/SAP.ui5-visual-editor-vscode/1.0.96/sap.watt.saptoolsets.fiori.project.uiadaptationfeature/client/v1.0.96_1674734653539/src/uiadaptation/util/UIAdaptationTransceiver.js" type="text/javascript"></script>
+	<script src="https://port8888-workspaces-ws-ql4gc.eu10.applicationstudio.cloud.sap/features/SAP.ui5-visual-editor-vscode/1.0.96/sap.watt.saptoolsets.fiori.project.uiadaptationfeature/client/v1.0.96_1674734653539/src/uiadaptation/util/AppVariantPreviewHelper.js" type="text/javascript"></script>
+
+</head>
+
+<body class="sapUiBody" id="content" role="application">
+</body>
+
+</html>

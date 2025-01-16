@@ -1,0 +1,37 @@
+{
+	"fileName": "id_1675263072533_85_propertyChange",
+	"fileType": "change",
+	"changeType": "propertyChange",
+	"moduleName": "",
+	"reference": "customer.student00.ux402adaptation",
+	"packageName": "$TMP",
+	"content": {
+		"property": "visible",
+		"newValue": false
+	},
+	"selector": {
+		"id": "Flights--idCarrierInfo",
+		"type": "sap.m.ObjectHeader",
+		"idIsLocal": true
+	},
+	"layer": "CUSTOMER_BASE",
+	"texts": {},
+	"namespace": "apps/student04.com.sap.training.ux402.fullscreen.ux402fullscreen/changes/",
+	"projectId": "customer.student00.ux402adaptation",
+	"creation": "2023-02-01T14:51:12.904Z",
+	"originalLanguage": "FR",
+	"support": {
+		"generator": "sap.ui.rta.command",
+		"service": "",
+		"user": "",
+		"sapui5Version": "1.96.14",
+		"sourceChangeFileName": "",
+		"compositeCommand": "",
+		"command": "property"
+	},
+	"oDataInformation": {},
+	"dependentSelector": {},
+	"jsOnly": false,
+	"variantReference": "",
+	"appDescriptorChange": false
+}
